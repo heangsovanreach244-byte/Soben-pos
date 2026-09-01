@@ -1,0 +1,143 @@
+```css
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#f8f9fa;
+}
+
+a{
+    text-decoration:none;
+}
+
+.navbar-brand{
+    font-weight:bold;
+}
+
+.sidebar{
+    width:250px;
+    min-height:100vh;
+    background:#212529;
+}
+
+.sidebar a{
+    display:block;
+    color:#fff;
+    padding:12px 20px;
+    transition:0.3s;
+}
+
+.sidebar a:hover{
+    background:#0d6efd;
+    color:#fff;
+}
+
+.content{
+    padding:20px;
+}
+
+.card{
+    border:none;
+    border-radius:12px;
+}
+
+.card-header{
+    font-weight:600;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.table{
+    background:#fff;
+}
+
+.table th{
+    vertical-align:middle;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+.form-control{
+    border-radius:8px;
+}
+
+.form-select{
+    border-radius:8px;
+}
+
+.login-page{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f1f5f9;
+}
+
+.login-box{
+    width:400px;
+}
+
+.login-card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.1);
+}
+
+.logo{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+}
+
+.footer{
+    text-align:center;
+    padding:15px;
+    color:#6c757d;
+}
+
+.badge-stock{
+    background:#dc3545;
+}
+
+.receipt{
+    width:300px;
+    margin:auto;
+    font-size:14px;
+}
+
+.receipt h4{
+    text-align:center;
+}
+
+.receipt table{
+    width:100%;
+}
+
+.receipt table td{
+    padding:3px;
+}
+
+.print-btn{
+    margin-top:10px;
+}
+
+@media(max-width:768px){
+
+    .sidebar{
+        width:100%;
+        min-height:auto;
+    }
+
+    .login-box{
+        width:95%;
+    }
+}
+```
